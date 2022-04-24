@@ -1,5 +1,12 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import store from './store'
+import { createApp } from "vue";
+import App from "./App.vue";
+import store from "./store";
 
-createApp(App).use(store).mount('#app')
+// wave
+import WaveSvg from "./components/UI/WaveSvg.vue";
+
+const app = createApp(App);
+app.use(store);
+
+app.component("wave-svg", WaveSvg);
+app.mount("#app");
