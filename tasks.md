@@ -1,0 +1,4 @@
+-make it responsive
+-create dynamic component for the quiz
+-create the vuex store with the approperiate data
+-setup all the functionality of the app
